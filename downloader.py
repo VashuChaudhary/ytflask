@@ -15,7 +15,7 @@ def download_video(url):
         "format": "bestvideo+bestaudio/best",
         "outtmpl": output_template,
         "merge_output_format": "mp4",
-        "cookiefile": "--cookies-from-browser"
+        "cookiefile": "--cookies-from-browser chrome"
     }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         info = ydl.extract_info(url)
