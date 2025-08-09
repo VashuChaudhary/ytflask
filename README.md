@@ -33,7 +33,7 @@ A modern web app to grab your favorite YouTube videos instantly. Built with Flas
 
 <!-- Optionally, add a GIF or video demo here -->
 
-![Demo](demo.gif)
+![Demo](demo.mp4)
 
 ---
 
